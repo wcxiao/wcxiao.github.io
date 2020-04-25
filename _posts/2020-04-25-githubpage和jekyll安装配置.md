@@ -1,3 +1,13 @@
+---
+layout: post
+title: 'Github Page and Jekyll搭建'
+date: 2020-04-25
+author: wcxiao
+color: rgb(255,210,32)
+cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
+tags: jekyll
+---
+
 # Github Page配置
 
 平台: windows10\
