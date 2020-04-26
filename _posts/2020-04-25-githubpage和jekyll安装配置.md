@@ -10,7 +10,7 @@ tags: jekyll
 
 # Github Page配置
 
-平台: windows10\
+平台: windows10  
 时间：2020-04-25
 
 ## 前期准备：软件安装
@@ -29,11 +29,11 @@ tags: jekyll
 
 安装步骤可参考:
 
-https://www.jianshu.com/p/58e2c5ea3103
+https://www.jianshu.com/p/58e2c5ea3103  
 https://blog.csdn.net/mouday/article/details/79300135
 
+![p1](https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/ruby_msys2.png)
 
-![](https://raw.githubusercontent.com/wcxiao/picholder/master/jekyll/ruby_msys2.png)
 安装好ruby和devkit后(需要安装msys2,及上图所示的1，3)，进入cmd(可以用Git cmd)，使用gem -v查看是否安装成功
 
 然后换源：(参考[网站](https://gems.ruby-china.com/))
@@ -62,15 +62,15 @@ Bundle install
 
 ## 创建GitHub page
 
-如图：
-![](https://raw.githubusercontent.com/wcxiao/picholder/master/jekyll/20200425223616.png)
+创建仓库，如图：
+![p2](https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/newrepo.png)
 
 repository name最好是username.github.io(username是你的github用户名)，这样可直接使用该网址username.github.io访问博客。如果不是github的付费用户则最好选择public，只有付费用户的private产生的github page才能被别人访问。如果该仓库只存放博客，则只要默认分支即可，如果还放其它东西，可以建立另一个分支。
 
 在本地新建一个文件夹存放博客，把创建的repo克隆到该文件夹下：
-![](https://raw.githubusercontent.com/wcxiao/picholder/master/jekyll/20200425223719.png)
+![p3](https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/buildpage1.png)
 
-然后在本地仓库文件夹创建一个index.html文件：\
+然后在本地仓库文件夹创建一个index.html文件：
 index.html:
 ```html
 <!DOCTYPE html>
@@ -85,10 +85,10 @@ index.html:
 ```
 
 然后push到仓库：
-![](https://raw.githubusercontent.com/wcxiao/picholder/master/jekyll/20200425223809.png)
+![p4](https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/buildpage2.png)
 
 之后访问username.githu.io即可查看
-![](https://raw.githubusercontent.com/wcxiao/picholder/master/jekyll/20200425223836.png)
+![p5](https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/blogpage.png)
 
 
 可以下载jekyll主题([链接](http://jekyllthemes.org/))美化博客
@@ -109,7 +109,7 @@ bundle exec jekyll serve
 具体步骤可以参考:
 
 在github仓库设置中添加custom domain，然后在阿里云控制台进行域名解析：
-![](https://raw.githubusercontent.com/wcxiao/picholder/master/jekyll/20200425224004.png)
+![p6](https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/domain.png)
 
 reference:
 
