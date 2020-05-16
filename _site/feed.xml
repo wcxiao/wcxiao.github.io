@@ -1,4 +1,215 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-27T18:29:55+08:00</updated><id>http://localhost:4000/</id><title type="html">wcxiao</title><subtitle>wcxiaos blogs</subtitle><author><name>true</name></author><entry><title type="html">Jekyll本地预览网页not found</title><link href="http://localhost:4000/2020/04/27/Jekyll%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88%E7%BD%91%E9%A1%B5not-found%E9%97%AE%E9%A2%98.html" rel="alternate" type="text/html" title="Jekyll本地预览网页not found" /><published>2020-04-27T00:00:00+08:00</published><updated>2020-04-27T00:00:00+08:00</updated><id>http://localhost:4000/2020/04/27/Jekyll%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88%E7%BD%91%E9%A1%B5not%20found%E9%97%AE%E9%A2%98</id><content type="html" xml:base="http://localhost:4000/2020/04/27/Jekyll%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88%E7%BD%91%E9%A1%B5not-found%E9%97%AE%E9%A2%98.html">&lt;h2 id=&quot;问题描述&quot;&gt;问题描述&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-16T16:34:07+08:00</updated><id>http://localhost:4000/</id><title type="html">wcxiao</title><subtitle>wcxiaos blogs</subtitle><author><name>true</name></author><entry><title type="html">Latex数学符号</title><link href="http://localhost:4000/2020/05/16/latex%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7.html" rel="alternate" type="text/html" title="Latex数学符号" /><published>2020-05-16T00:00:00+08:00</published><updated>2020-05-16T00:00:00+08:00</updated><id>http://localhost:4000/2020/05/16/latex%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7</id><content type="html" xml:base="http://localhost:4000/2020/05/16/latex%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7.html">&lt;p&gt;摘自《Latex入门》 刘海洋编著 电子工业出版社 ISBN：978-7-121-20208-7&lt;/p&gt;
+
+&lt;h2 id=&quot;字母字体&quot;&gt;字母字体&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/charfont.png&quot; alt=&quot;charfont&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/charfont2.png&quot; alt=&quot;charfont2&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;希腊字母&quot;&gt;希腊字母&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/greecechar.png&quot; alt=&quot;greecechar&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;数学重音符号&quot;&gt;数学重音符号&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/mathaccents.png&quot; alt=&quot;mathaccents&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;普通数学符号&quot;&gt;普通数学符号&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/mathnormalsymbol.png&quot; alt=&quot;mathnormalsymbol&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;运算符&quot;&gt;运算符&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/mathop.png&quot; alt=&quot;mathop&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/mathop2.png&quot; alt=&quot;mathop2&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;二元运算符&quot;&gt;二元运算符&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/mathmod.png&quot; alt=&quot;mathmod&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/binaryop.png&quot; alt=&quot;binaryop&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/binaryop2.png&quot; alt=&quot;binaryop2&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;数学其他符号&quot;&gt;数学其他符号&lt;/h2&gt;
+
+&lt;h3 id=&quot;箭头&quot;&gt;箭头&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/arrow.png&quot; alt=&quot;arrow&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;括号&quot;&gt;括号&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/bracket.png&quot; alt=&quot;bracket&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;省略号&quot;&gt;省略号&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/mathellipsis.png&quot; alt=&quot;mathellipsis&quot; /&gt;&lt;/p&gt;</content><author><name>wcxiao</name></author><category term="latex" /><summary type="html">摘自《Latex入门》 刘海洋编著 电子工业出版社 ISBN：978-7-121-20208-7</summary></entry><entry><title type="html">Latex数学公式</title><link href="http://localhost:4000/2020/05/16/latex%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F.html" rel="alternate" type="text/html" title="Latex数学公式" /><published>2020-05-16T00:00:00+08:00</published><updated>2020-05-16T00:00:00+08:00</updated><id>http://localhost:4000/2020/05/16/latex%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F</id><content type="html" xml:base="http://localhost:4000/2020/05/16/latex%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F.html">&lt;h2 id=&quot;公式语法&quot;&gt;公式语法&lt;/h2&gt;
+
+&lt;p&gt;行内公式和行间公式：&lt;/p&gt;
+
+&lt;p&gt;行内：&lt;/p&gt;
+
+&lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. &lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;
+2. &lt;span class=&quot;p&quot;&gt;\(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;\)&lt;/span&gt;
+3. &lt;span class=&quot;nt&quot;&gt;\begin{math}&lt;/span&gt;a+b&lt;span class=&quot;nt&quot;&gt;\end{math}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;行间&lt;/p&gt;
+
+&lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. &lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;
+2. &lt;span class=&quot;p&quot;&gt;\[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;\]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;带编号的数学公式：&lt;/p&gt;
+
+&lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;\begin{equation}&lt;/span&gt;
+a+b = b+a
+&lt;span class=&quot;nt&quot;&gt;\end{equation}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;\begin{equation*}&lt;/span&gt;
+a+b = b+a
+&lt;span class=&quot;nt&quot;&gt;\end{equation*}&lt;/span&gt;
+加上星号是不带编号的公式
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;在amsmath环境下(\usepackage{amsmath})，可以在数学公式中插入文字，需要使用\text{文字}&lt;/p&gt;
+
+&lt;h2 id=&quot;符号&quot;&gt;符号&lt;/h2&gt;
+
+&lt;p&gt;\mathop{内容}：将普通符号转为数学符号&lt;/p&gt;
+
+&lt;p&gt;\operatorname{符号}：将符号临时转为数学符号&lt;/p&gt;
+
+&lt;p&gt;角度度数：\circ&lt;/p&gt;
+
+&lt;p&gt;二项式系数：\binom nk&lt;/p&gt;
+
+&lt;p&gt;amsmath的广义分式命令：\genfrac{左括号}{右括号}{线宽}{大小}{分子}{分母}&lt;/p&gt;
+
+&lt;p&gt;n次根式：\sqrt[n]{xxx}&lt;/p&gt;
+
+&lt;p&gt;求和式的下限中多行内容可以使用\substack或者\subarray排版：\substack{i=1 // j=1}&lt;/p&gt;
+
+&lt;p&gt;求和式中使用\limits将下标放在正下方&lt;/p&gt;
+
+&lt;p&gt;粗体：\bm{内容}&lt;/p&gt;
+
+&lt;p&gt;粗体加重：\hm{内容}&lt;/p&gt;
+
+&lt;h2 id=&quot;矩阵&quot;&gt;矩阵&lt;/h2&gt;
+
+&lt;p&gt;行间用\分隔，列用&amp;amp;分隔&lt;/p&gt;
+
+&lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;圆括号矩阵：pmatrix环境
+&lt;span class=&quot;nt&quot;&gt;\begin{pmatrix}&lt;/span&gt;
+a &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; b &lt;span class=&quot;k&quot;&gt;\\&lt;/span&gt;
+c &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; d 
+&lt;span class=&quot;nt&quot;&gt;\end{pmatrix}&lt;/span&gt;
+
+无括号矩阵：matrix环境
+
+方括号矩阵：tmatrix环境
+
+大括号矩阵：Bmatrix环境
+
+行列式：vmatrix环境
+
+矩阵的模(范数)：Vmatrix环境
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;mathtools包中的matrix*等环境可以定义列对齐方式&lt;/p&gt;</content><author><name>wcxiao</name></author><category term="latex" /><summary type="html">公式语法</summary></entry><entry><title type="html">Latex多行公式</title><link href="http://localhost:4000/2020/05/16/latex%E5%A4%9A%E8%A1%8C%E5%85%AC%E5%BC%8F.html" rel="alternate" type="text/html" title="Latex多行公式" /><published>2020-05-16T00:00:00+08:00</published><updated>2020-05-16T00:00:00+08:00</updated><id>http://localhost:4000/2020/05/16/latex%E5%A4%9A%E8%A1%8C%E5%85%AC%E5%BC%8F</id><content type="html" xml:base="http://localhost:4000/2020/05/16/latex%E5%A4%9A%E8%A1%8C%E5%85%AC%E5%BC%8F.html">&lt;p&gt;使用amsmath包&lt;/p&gt;
+
+&lt;h2 id=&quot;多行公式&quot;&gt;多行公式&lt;/h2&gt;
+
+&lt;p&gt;equation或equation*(不编号)环境：该环境中换行符\无效&lt;/p&gt;
+
+&lt;p&gt;gather和gather*(不编号)环境，与equation不同的仅仅是可以使用\进行换行;&lt;/p&gt;
+
+&lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;\begin{gather}&lt;/span&gt;
+a+b = b+a &lt;span class=&quot;k&quot;&gt;\\&lt;/span&gt;
+ab = ba
+&lt;span class=&quot;nt&quot;&gt;\end{gather}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;\begin{gather}&lt;/span&gt;
+3&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;2 + 4&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;2 = 5&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;2 &lt;span class=&quot;k&quot;&gt;\notag&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;\\&lt;/span&gt;    (&lt;span class=&quot;k&quot;&gt;\notag&lt;/span&gt;指定该行不编号)
+5&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;2 + 12&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;2 = 13&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;2 &lt;span class=&quot;k&quot;&gt;\notag&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;\\&lt;/span&gt;
+a&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;2 + b&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;2 = c&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;2
+&lt;span class=&quot;nt&quot;&gt;\end{gather}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;gather环境得到的公式是每行居中的，align环境则允许公式按等号或其他关系符对齐，在关系符前加&amp;amp;表示对齐。&lt;/p&gt;
+
+&lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;\begin{align}&lt;/span&gt;
+x &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;= t + &lt;span class=&quot;k&quot;&gt;\cos&lt;/span&gt; t + 1 &lt;span class=&quot;k&quot;&gt;\\&lt;/span&gt;
+y &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;= 2&lt;span class=&quot;k&quot;&gt;\sin&lt;/span&gt; t
+&lt;span class=&quot;nt&quot;&gt;\end{align}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;flalign环境与flalign*环境的功能与align环境类似，它也把公式每两列分为一组，分别向右向左对齐。不同的是，flalign环境中公式的间距是可以无限伸长的弹性距离，几列公式会在水平方向分散对齐。&lt;/p&gt;
+
+&lt;p&gt;alignat环境则与flalign正相反，它本身不在列与列之间产生间距，但可以手工增加间距。alignat环境有一个参数，表示每行要对齐的公式个数（每两列一组）&lt;/p&gt;
+
+&lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;\begin{alignat*}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;6&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;1 &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;+2 &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;+3 &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;+4 &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;+5 &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;=15 &lt;span class=&quot;k&quot;&gt;\\&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;1 &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;+3 &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;+5 &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;=9 &lt;span class=&quot;k&quot;&gt;\\&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;+2 &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;+4 &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;=6
+&lt;span class=&quot;nt&quot;&gt;\end{alignat*}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;\intertext{}可以在多行公式中插入文字：&lt;/p&gt;
+
+&lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;\begin{align*}&lt;/span&gt;
+x&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;2 + 2x &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;= -1
+&lt;span class=&quot;k&quot;&gt;\intertext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;移项得&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+x&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;2 + 2x + 1 &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;= 0
+&lt;span class=&quot;nt&quot;&gt;\end{align*}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;长公式拆分&quot;&gt;长公式拆分&lt;/h2&gt;
+
+&lt;p&gt;multline环境和multiline*环境是equation环境的分行版本，它可以使用\换行&lt;/p&gt;
+
+&lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;\begin{multline}&lt;/span&gt;
+a+b+c+d+e &lt;span class=&quot;k&quot;&gt;\\&lt;/span&gt;
++f+g+h+i+j &lt;span class=&quot;k&quot;&gt;\\&lt;/span&gt;
++k+l+m+n+o &lt;span class=&quot;k&quot;&gt;\\&lt;/span&gt;
++p+q+r+s+t
+&lt;span class=&quot;nt&quot;&gt;\end{multline}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;split环境&lt;/p&gt;
+
+&lt;p&gt;split环境并不开始一个数学公式，它用在equation、gather等数学环境里面，可以把单个公式拆分成多行&lt;/p&gt;
+
+&lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;\begin{equation}&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;\begin{split}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\cos&lt;/span&gt; 2x &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;= &lt;span class=&quot;k&quot;&gt;\cos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;2 x - &lt;span class=&quot;k&quot;&gt;\sin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;2 x &lt;span class=&quot;k&quot;&gt;\\&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;= 2&lt;span class=&quot;k&quot;&gt;\cos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;2 x - 1
+&lt;span class=&quot;nt&quot;&gt;\end{split}&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;\end{equation}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;公式成块&quot;&gt;公式成块&lt;/h2&gt;
+
+&lt;p&gt;cases环境&lt;/p&gt;
+
+&lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;\begin{equation}&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;eq:dirichlet&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+D(x) = &lt;span class=&quot;nt&quot;&gt;\begin{cases}&lt;/span&gt;
+1, &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;\text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;if &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; x &lt;span class=&quot;k&quot;&gt;\in&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;\mathbb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;Q&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;\\&lt;/span&gt;
+0, &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;\text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;if &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; x &lt;span class=&quot;k&quot;&gt;\in&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\mathbb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;R&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\setminus\mathbb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;Q&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;.
+&lt;span class=&quot;nt&quot;&gt;\end{cases}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;\end{equation}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;gathred环境&lt;/p&gt;
+
+&lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;\[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\left&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;. &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\begin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;gathered&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+S &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\subseteq&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; T &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\\&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+S &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\supseteq&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; T
+&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;gathered&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\right\}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\implies&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; S &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; T &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;\]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>wcxiao</name></author><category term="latex" /><summary type="html">使用amsmath包</summary></entry><entry><title type="html">Jekyll本地预览网页not found</title><link href="http://localhost:4000/2020/04/27/Jekyll%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88%E7%BD%91%E9%A1%B5not-found%E9%97%AE%E9%A2%98.html" rel="alternate" type="text/html" title="Jekyll本地预览网页not found" /><published>2020-04-27T00:00:00+08:00</published><updated>2020-04-27T00:00:00+08:00</updated><id>http://localhost:4000/2020/04/27/Jekyll%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88%E7%BD%91%E9%A1%B5not%20found%E9%97%AE%E9%A2%98</id><content type="html" xml:base="http://localhost:4000/2020/04/27/Jekyll%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88%E7%BD%91%E9%A1%B5not-found%E9%97%AE%E9%A2%98.html">&lt;h2 id=&quot;问题描述&quot;&gt;问题描述&lt;/h2&gt;
 
 &lt;p&gt;执行bundle exec jekyll serve，打开127…..后查看博客出现404 not found；&lt;/p&gt;
 
@@ -105,12 +316,48 @@ https://help.aliyun.com/document_detail/61872.html?spm=a2c4g.11186623.2.7.1ae440
 
 &lt;p&gt;refenence:&lt;/p&gt;
 
-&lt;p&gt;https://www.itrhx.com/2019/08/01/A27-image-hosting/&lt;/p&gt;</content><author><name>wcxiao</name></author><category term="PicGo" /><summary type="html">利用PicGo进行图床搭建</summary></entry><entry><title type="html">Github Page and Jekyll搭建</title><link href="http://localhost:4000/2020/04/25/githubpage%E5%92%8Cjekyll%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE.html" rel="alternate" type="text/html" title="Github Page and Jekyll搭建" /><published>2020-04-25T00:00:00+08:00</published><updated>2020-04-25T00:00:00+08:00</updated><id>http://localhost:4000/2020/04/25/githubpage%E5%92%8Cjekyll%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE</id><content type="html" xml:base="http://localhost:4000/2020/04/25/githubpage%E5%92%8Cjekyll%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE.html">&lt;h1 id=&quot;github-page配置&quot;&gt;Github Page配置&lt;/h1&gt;
-
-&lt;p&gt;平台: windows10&lt;br /&gt;
+&lt;p&gt;https://www.itrhx.com/2019/08/01/A27-image-hosting/&lt;/p&gt;</content><author><name>wcxiao</name></author><category term="PicGo" /><summary type="html">利用PicGo进行图床搭建</summary></entry><entry><title type="html">Github Page and Jekyll搭建</title><link href="http://localhost:4000/2020/04/25/githubpage%E5%92%8Cjekyll%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE.html" rel="alternate" type="text/html" title="Github Page and Jekyll搭建" /><published>2020-04-25T00:00:00+08:00</published><updated>2020-04-25T00:00:00+08:00</updated><id>http://localhost:4000/2020/04/25/githubpage%E5%92%8Cjekyll%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE</id><content type="html" xml:base="http://localhost:4000/2020/04/25/githubpage%E5%92%8Cjekyll%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE.html">&lt;p&gt;平台: windows10&lt;br /&gt;
 时间：2020-04-25&lt;/p&gt;
 
-&lt;h2 id=&quot;前期准备软件安装&quot;&gt;前期准备：软件安装&lt;/h2&gt;
+&lt;h2 id=&quot;创建github-page&quot;&gt;创建GitHub page&lt;/h2&gt;
+
+&lt;p&gt;创建仓库，如图：
+&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/newrepo.png&quot; alt=&quot;p2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;repository name最好是username.github.io(username是你的github用户名)，这样可直接使用该网址username.github.io访问博客。如果不是github的付费用户则最好选择public，只有付费用户的private产生的github page才能被别人访问。如果该仓库只存放博客，则只要默认分支即可，如果还放其它东西，可以建立另一个分支。&lt;/p&gt;
+
+&lt;p&gt;在本地新建一个文件夹存放博客，把创建的repo克隆到该文件夹下：
+&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/buildpage1.png&quot; alt=&quot;p3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;然后在本地仓库文件夹创建一个index.html文件：
+index.html:&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+	My Blogs
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;hello, my first page!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;然后push到仓库：
+&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/buildpage2.png&quot; alt=&quot;p4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;之后访问username.githu.io即可查看
+&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/blogpage.png&quot; alt=&quot;p5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;到这一步只是显示了一个基本页面，下面安装jekyll进行高级操作&lt;/p&gt;
+
+&lt;p&gt;可以先下载jekyll主题(&lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;链接&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;将下载好的主题解压到本地仓库，覆盖原文件，保留.git文件夹。如图：
+&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/themefiles.png&quot; alt=&quot;themefiles&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;可以看到文件中有Gemfile和Gemfile.lock两个文件，后面会提到&lt;/p&gt;
+
+&lt;h2 id=&quot;软件安装&quot;&gt;软件安装&lt;/h2&gt;
 
 &lt;h3 id=&quot;安装git&quot;&gt;安装Git&lt;/h3&gt;
 
@@ -157,38 +404,9 @@ https://blog.csdn.net/mouday/article/details/79300135&lt;/p&gt;
 
 &lt;p&gt;该步骤会自动根据gemfile中的配置安装好依赖&lt;/p&gt;
 
-&lt;h2 id=&quot;创建github-page&quot;&gt;创建GitHub page&lt;/h2&gt;
+&lt;p&gt;这一步完成就安装好了&lt;/p&gt;
 
-&lt;p&gt;创建仓库，如图：
-&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/newrepo.png&quot; alt=&quot;p2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;repository name最好是username.github.io(username是你的github用户名)，这样可直接使用该网址username.github.io访问博客。如果不是github的付费用户则最好选择public，只有付费用户的private产生的github page才能被别人访问。如果该仓库只存放博客，则只要默认分支即可，如果还放其它东西，可以建立另一个分支。&lt;/p&gt;
-
-&lt;p&gt;在本地新建一个文件夹存放博客，把创建的repo克隆到该文件夹下：
-&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/buildpage1.png&quot; alt=&quot;p3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;然后在本地仓库文件夹创建一个index.html文件：
-index.html:&lt;/p&gt;
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-	My Blogs
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;hello, my first page!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;然后push到仓库：
-&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/buildpage2.png&quot; alt=&quot;p4&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;之后访问username.githu.io即可查看
-&lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/blogpage.png&quot; alt=&quot;p5&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;可以下载jekyll主题(&lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;链接&lt;/a&gt;)美化博客&lt;/p&gt;
-
-&lt;p&gt;将下载好的主题解压到本地仓库，覆盖原文件，保留.git文件夹。&lt;/p&gt;
+&lt;h2 id=&quot;启动服务&quot;&gt;启动服务&lt;/h2&gt;
 
 &lt;p&gt;然后在这里打开git cmd启动jekyll服务：&lt;/p&gt;
 
@@ -200,13 +418,15 @@ index.html:&lt;/p&gt;
 
 &lt;p&gt;之后访问username.github.io查看效果&lt;/p&gt;
 
+&lt;p&gt;之后更新博客只需直接将markdown文件放到_posts文件夹下，然后设置好标题，再在本地启动jekyll服务进行编译，最后使用git进行提交就行了&lt;/p&gt;
+
 &lt;p&gt;还可以绑定自己的域名
 具体步骤可以参考:&lt;/p&gt;
 
 &lt;p&gt;在github仓库设置中添加custom domain，然后在阿里云控制台进行域名解析：
 &lt;img src=&quot;https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/domain.png&quot; alt=&quot;p6&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;reference:&lt;/p&gt;
+&lt;h2 id=&quot;reference&quot;&gt;reference:&lt;/h2&gt;
 
 &lt;p&gt;安装jekyll和配置GithubPage：https://www.cnblogs.com/sqchen/p/10757927.html&lt;/p&gt;
 
@@ -224,7 +444,7 @@ index.html:&lt;/p&gt;
 
 &lt;p&gt;推荐：&lt;/p&gt;
 
-&lt;p&gt;如何让百度收录 GitHub Pages 个人博客：https://zhuanlan.zhihu.com/p/111773896&lt;/p&gt;</content><author><name>wcxiao</name></author><category term="jekyll" /><summary type="html">Github Page配置</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/2018/05/17/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-05-17T14:05:21+08:00</published><updated>2018-05-17T14:05:21+08:00</updated><id>http://localhost:4000/2018/05/17/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/2018/05/17/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;p&gt;如何让百度收录 GitHub Pages 个人博客：https://zhuanlan.zhihu.com/p/111773896&lt;/p&gt;</content><author><name>wcxiao</name></author><category term="jekyll" /><summary type="html">平台: windows10 时间：2020-04-25</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/2018/05/17/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-05-17T14:05:21+08:00</published><updated>2018-05-17T14:05:21+08:00</updated><id>http://localhost:4000/2018/05/17/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/2018/05/17/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 

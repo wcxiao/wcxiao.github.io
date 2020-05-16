@@ -146,12 +146,48 @@ var _hmt = _hmt || [];
   
 
   <!-- 文章内容 -->
-  <h1 id="github-page配置">Github Page配置</h1>
-
-<p>平台: windows10<br />
+  <p>平台: windows10<br />
 时间：2020-04-25</p>
 
-<h2 id="前期准备软件安装">前期准备：软件安装</h2>
+<h2 id="创建github-page">创建GitHub page</h2>
+
+<p>创建仓库，如图：
+<img src="https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/newrepo.png" alt="p2" /></p>
+
+<p>repository name最好是username.github.io(username是你的github用户名)，这样可直接使用该网址username.github.io访问博客。如果不是github的付费用户则最好选择public，只有付费用户的private产生的github page才能被别人访问。如果该仓库只存放博客，则只要默认分支即可，如果还放其它东西，可以建立另一个分支。</p>
+
+<p>在本地新建一个文件夹存放博客，把创建的repo克隆到该文件夹下：
+<img src="https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/buildpage1.png" alt="p3" /></p>
+
+<p>然后在本地仓库文件夹创建一个index.html文件：
+index.html:</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+	My Blogs
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+	<span class="nt">&lt;p&gt;</span>hello, my first page!<span class="nt">&lt;/p&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<p>然后push到仓库：
+<img src="https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/buildpage2.png" alt="p4" /></p>
+
+<p>之后访问username.githu.io即可查看
+<img src="https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/blogpage.png" alt="p5" /></p>
+
+<p>到这一步只是显示了一个基本页面，下面安装jekyll进行高级操作</p>
+
+<p>可以先下载jekyll主题(<a href="http://jekyllthemes.org/">链接</a>)</p>
+
+<p>将下载好的主题解压到本地仓库，覆盖原文件，保留.git文件夹。如图：
+<img src="https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/themefiles.png" alt="themefiles" /></p>
+
+<p>可以看到文件中有Gemfile和Gemfile.lock两个文件，后面会提到</p>
+
+<h2 id="软件安装">软件安装</h2>
 
 <h3 id="安装git">安装Git</h3>
 
@@ -198,38 +234,9 @@ https://blog.csdn.net/mouday/article/details/79300135</p>
 
 <p>该步骤会自动根据gemfile中的配置安装好依赖</p>
 
-<h2 id="创建github-page">创建GitHub page</h2>
+<p>这一步完成就安装好了</p>
 
-<p>创建仓库，如图：
-<img src="https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/newrepo.png" alt="p2" /></p>
-
-<p>repository name最好是username.github.io(username是你的github用户名)，这样可直接使用该网址username.github.io访问博客。如果不是github的付费用户则最好选择public，只有付费用户的private产生的github page才能被别人访问。如果该仓库只存放博客，则只要默认分支即可，如果还放其它东西，可以建立另一个分支。</p>
-
-<p>在本地新建一个文件夹存放博客，把创建的repo克隆到该文件夹下：
-<img src="https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/buildpage1.png" alt="p3" /></p>
-
-<p>然后在本地仓库文件夹创建一个index.html文件：
-index.html:</p>
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
-<span class="nt">&lt;html&gt;</span>
-	<span class="nt">&lt;head&gt;</span>
-	My Blogs
-	<span class="nt">&lt;/head&gt;</span>
-	<span class="nt">&lt;body&gt;</span>
-	<span class="nt">&lt;p&gt;</span>hello, my first page!<span class="nt">&lt;/p&gt;</span>
-	<span class="nt">&lt;/body&gt;</span>
-<span class="nt">&lt;/html&gt;</span>
-</code></pre></div></div>
-
-<p>然后push到仓库：
-<img src="https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/buildpage2.png" alt="p4" /></p>
-
-<p>之后访问username.githu.io即可查看
-<img src="https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/blogpage.png" alt="p5" /></p>
-
-<p>可以下载jekyll主题(<a href="http://jekyllthemes.org/">链接</a>)美化博客</p>
-
-<p>将下载好的主题解压到本地仓库，覆盖原文件，保留.git文件夹。</p>
+<h2 id="启动服务">启动服务</h2>
 
 <p>然后在这里打开git cmd启动jekyll服务：</p>
 
@@ -241,13 +248,15 @@ index.html:</p>
 
 <p>之后访问username.github.io查看效果</p>
 
+<p>之后更新博客只需直接将markdown文件放到_posts文件夹下，然后设置好标题，再在本地启动jekyll服务进行编译，最后使用git进行提交就行了</p>
+
 <p>还可以绑定自己的域名
 具体步骤可以参考:</p>
 
 <p>在github仓库设置中添加custom domain，然后在阿里云控制台进行域名解析：
 <img src="https://picholder.oss-cn-shanghai.aliyuncs.com/jekyll/domain.png" alt="p6" /></p>
 
-<p>reference:</p>
+<h2 id="reference">reference:</h2>
 
 <p>安装jekyll和配置GithubPage：https://www.cnblogs.com/sqchen/p/10757927.html</p>
 
