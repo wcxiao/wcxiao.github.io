@@ -1,0 +1,410 @@
+<!-- 博文的布局-Layout -->
+<!DOCTYPE html>
+<html>
+<head>
+<!-- 引入head标签 -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-sclable=0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="wcxiaos blogs" />
+<meta name="keywords" content="your web keywords, another keywords" />
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/media.css">
+<link rel="stylesheet" href="/assets/css/animate.min.css">
+<link rel="stylesheet" href="/assets/css/pygments/pygments_default.css">
+<link rel="stylesheet" href="/assets/css/github-markdown.css">
+<!-- SNS-icon -->
+<script src="//at.alicdn.com/t/font_856428_y9z6nq7zf5.js"></script>
+<!-- share.css -->
+<link rel="stylesheet" href="/assets/css/share.min.css">
+<!-- font -->
+<link rel="stylesheet" href="/assets/css/font.css">
+<!-- <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Pacifico|Ubuntu|Roboto+Mono|Source+Sans+Pro" rel="stylesheet"> -->
+
+<!-- Favicon -->
+<link href="/assets/profile.jpeg" rel="shortcut icon" />
+<link href="/assets/profile.jpeg" rel="apple-touch-icon-precomposed" />
+<!-- Android Lolipop Theme Color -->
+<!-- <meta name="theme-color" content="#1464FB"> -->
+<title>高斯低通空间滤波器</title>
+<!-- 百度统计 -->
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!-- 谷歌分析 -->
+
+
+<!-- Android Lolipop Theme Color -->
+<meta name="theme-color" content=" rgb(255,210,32) ">
+</head>
+<body>
+
+<!-- 顶部锚点 -->
+<a id="htmlup" name="htmlup"></a>
+<!-- 引入博文顶部选项 -->
+
+<header id="post-header" style="background-color:rgb(255,210,32);">
+  <div class="top-center">
+      <div class="logo">
+          <a href="/" title="my awesome webtitle" style="color: white;">Personal Blogs</a>
+      </div>
+      <nav class="top-nav">
+          <ul>
+              
+                <li><a href="/" style="color: white;">首页</a></li>
+              
+                <li><a href="/tags.html" style="color: white;">标签</a></li>
+              
+                <li><a href="/timeline.html" style="color: white;">时间线</a></li>
+              
+                <li><a href="/about.html" style="color: white;">关于博主</a></li>
+              
+                <li><a href="/friendLink.html" style="color: white;">友情链接</a></li>
+              
+          </ul>
+      </nav>
+      <div id="top-boot">
+        <a href="javascript:;" id="boot1" style="display:block;" onclick="document.getElementById('boot-area').style.display='block';document.getElementById('boot1').style.display='none';document.getElementById('boot2').style.display='block';"><img src="/assets/boot_white.png" alt=""></a>
+        <a href="javascript:;" id="boot2" style="display: none;" onclick="document.getElementById('boot-area').style.display='none';document.getElementById('boot1').style.display='block';document.getElementById('boot2').style.display='none';"><img src="/assets/boot_white.png" alt=""></a>
+      </div>
+  </div>
+
+</header>
+
+
+<!-- 引入移动下拉选项 -->
+<div id="boot-area">
+    <ul>
+        
+          <a href="/"><li>首页</li></a>
+        
+          <a href="/tags.html"><li>标签</li></a>
+        
+          <a href="/timeline.html"><li>时间线</li></a>
+        
+          <a href="/about.html"><li>关于博主</li></a>
+        
+          <a href="/friendLink.html"><li>友情链接</li></a>
+        
+    </ul>
+</div>
+
+<!-- 引入博文顶部样式 -->
+<!-- 版本一 垃圾 -->
+<!-- <div class="wow fadeIn top" data-wow-duration="3.5s" >
+    <span class="wow fadeInUp" data-wow-delay="0.2s">高斯低通空间滤波器</span>
+    <span class="wow fadeInUp" data-wow-delay="0.4s"></span>
+    <span class="wow fadeInUp" data-wow-delay="0.4s"></span>
+    <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;xiaowc</span>
+</div> -->
+
+<!-- 版本二 可切换页面 -->
+
+<div class="post-top" style="background-color:rgb(255,210,32);">
+  <!-- 页面宽度大于800px -->
+  <div class="left-area">
+    
+      <a href="javascript:;" class="btn bounceInLeft animated" onmouseover="showLeft();this.style.color='rgb(255,210,32)';" onmouseout="goneLeft();this.style.color='rgba(0,0,0,.2)';"><</a>
+      <div id="left-tab" style="display:none;"><span class="left-san"></span><span class="left-main" style="color:rgb(255,210,32);"><sapn class="main">没有上一页咯</sapn></span></div>
+    
+  </div>
+  <div class="post-titlearea">
+    <span class="wow fadeInUp" data-wow-delay="0.2s">高斯低通空间滤波器</span>
+    <!-- <span class="wow fadeInUp" data-wow-delay="0.4s"></span> -->
+    <!-- <span class="wow fadeInUp" data-wow-delay="0.4s"></span> -->
+    <!-- <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;xiaowc</span> -->
+  </div>
+  <div class="right-area">
+    
+      <a href="/2020/07/07/%E8%BE%B9%E7%BC%98%E8%BF%BD%E8%B8%AA(Moore-Neighbor).html" class="btn bounceInRight self-animated" onmouseover="showRight();this.style.color='rgb(255,210,32)';" onmouseout="goneRight();this.style.color='rgba(0,0,0,.2)';">></a>
+      <div id="right-tab" style="display:none;"><span class="right-san"></span><span class="right-main" style="color:rgb(255,210,32);"><sapn class="main">边缘追踪(Moore-Neighbor Tracing)</sapn></span></div>
+    
+  </div>
+
+  <!-- 页面宽度小于800px -->
+  <div class="post-changearea">
+    
+      <a href="javascript:;" class="leftchange" style="border-right: 1px solid rgb(255,210,32);border-bottom: 2px solid rgb(255,210,32);"><span><br>没有上一篇咯</span></a>
+    
+    
+      <a href="/2020/07/07/%E8%BE%B9%E7%BC%98%E8%BF%BD%E8%B8%AA(Moore-Neighbor).html" class="rightchange" style="border-left: 1px solid rgb(255,210,32);border-bottom: 2px solid rgb(255,210,32);"><span>下一篇<br><br>边缘追踪(Moore-Neighbor Tracing)</span></a>
+    
+  </div>
+</div>
+
+
+<div class="markdown-body fadeInUp animated">
+
+  
+
+  <!-- 文章内容 -->
+  <h2 id="2d-gaussian-function">2D-Gaussian function</h2>
+
+<script type="math/tex; mode=display">G(x,y)=\frac{1}{2\pi\delta^2}e^{-\frac{x^2+y^2}{2\delta^2}}</script>
+
+<p>对于一个n*n的高斯滤波器，设其中心位置坐标为(0,0)，则其它位置的坐标也可以随之确定；由于高斯函数的对称性，只要中心位置坐标相同，即使坐标轴方向不同，计算出来的滤波器也相同；</p>
+
+<p>例如，对于3*3的滤波器：</p>
+
+<p><img src="https://picholder.oss-cn-shanghai.aliyuncs.com/dip/coordinate33.png" alt="coor" /></p>
+
+<p>只需要根据坐标带入高斯函数计算对应值即可；</p>
+
+<h2 id="实现">实现</h2>
+
+<p>设n=2k+1，则有：</p>
+
+<script type="math/tex; mode=display">G(i,j)=\frac{1}{2\pi\delta^2}e^{-\frac{(i-k-1)^2+(j-k-1)^2}{2\delta^2}}</script>
+
+<p>易知对于一个n*n滤波器(n=2k+1)：中心坐标为(k+1,k+1)：</p>
+
+<p>例如对于3*3：</p>
+
+<p>一、若按照矩阵先行后列，从左上角开始坐标依次增长的顺序，矩阵元素位置坐标如下：</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>(k,k)</td>
+      <td>(k+1,k)</td>
+      <td>(k+2,k)</td>
+    </tr>
+    <tr>
+      <td>(k,k+1)</td>
+      <td>(k+1,k+1)</td>
+      <td>(k+2,k+1)</td>
+    </tr>
+    <tr>
+      <td>(k,k+2)</td>
+      <td>(k+1,k+2)</td>
+      <td>(k+2,k+2)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>二、若按照矩阵先行后列，从左下角开始坐标依次增长的顺序，矩阵元素位置坐标如下：</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>(k,k+2)</td>
+      <td>(k+1,k+2)</td>
+      <td>(k+2,k+2)</td>
+    </tr>
+    <tr>
+      <td>(k,k+1)</td>
+      <td>(k+1,k+1)</td>
+      <td>(k+2,k+1)</td>
+    </tr>
+    <tr>
+      <td>(k,k)</td>
+      <td>(k+1,k)</td>
+      <td>(k+2,k)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>上表坐标减去(k+1)得到的就是上图的坐标</p>
+
+<p>可以看的，两个表的坐标刚好是上下颠倒的，根据对称性，两个表得到的结果是相同的，因此循环时按照方式一进行循环变量增长或者按照方式二进行循环变量增长得到的结果都是一样的。</p>
+
+<p>代码如下：</p>
+
+<div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">function</span> <span class="n">G</span> <span class="o">=</span> <span class="n">GLPSpatialfilter</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="n">delta</span><span class="p">)</span>
+<span class="c1">%GLPSpatialfilter(n,delta) 高斯低通空间滤波器</span>
+<span class="c1">%   n: size</span>
+
+<span class="n">deltaSqua</span> <span class="o">=</span> <span class="n">delta</span><span class="o">^</span><span class="mi">2</span><span class="p">;</span>
+<span class="nb">filter</span> <span class="o">=</span> <span class="nb">zeros</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="n">n</span><span class="p">);</span>
+
+<span class="n">k</span> <span class="o">=</span> <span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)/</span><span class="mi">2</span><span class="p">;</span>
+
+<span class="c1">%循环变量按照方式一进行增长</span>
+<span class="k">for</span> <span class="nb">i</span><span class="o">=</span><span class="mi">1</span><span class="p">:</span><span class="mi">1</span><span class="p">:</span><span class="n">n</span>
+    <span class="k">for</span> <span class="nb">j</span><span class="o">=</span><span class="mi">1</span><span class="p">:</span><span class="mi">1</span><span class="p">:</span><span class="n">n</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="nb">double</span><span class="p">((</span><span class="nb">i</span><span class="o">-</span><span class="n">k</span><span class="o">-</span><span class="mi">1</span><span class="p">))</span><span class="o">^</span><span class="mi">2</span><span class="p">;</span>
+        <span class="n">y</span> <span class="o">=</span> <span class="nb">double</span><span class="p">((</span><span class="nb">j</span><span class="o">-</span><span class="n">k</span><span class="o">-</span><span class="mi">1</span><span class="p">))</span><span class="o">^</span><span class="mi">2</span><span class="p">;</span>
+        <span class="n">t</span> <span class="o">=</span> <span class="p">(</span><span class="n">x</span><span class="o">+</span><span class="n">y</span><span class="p">)/</span><span class="mf">2.0</span><span class="p">/</span><span class="n">deltaSqua</span><span class="p">;</span>
+        <span class="n">z</span> <span class="o">=</span> <span class="nb">exp</span><span class="p">(</span><span class="o">-</span><span class="n">t</span><span class="p">);</span>
+        <span class="n">z</span> <span class="o">=</span> <span class="n">z</span><span class="p">/</span><span class="mi">2</span><span class="p">/</span><span class="nb">pi</span><span class="p">/</span><span class="n">deltaSqua</span><span class="p">;</span>
+        <span class="nb">filter</span><span class="p">(</span><span class="nb">i</span><span class="p">,</span><span class="nb">j</span><span class="p">)</span> <span class="o">=</span> <span class="n">z</span><span class="p">;</span>
+    <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="c1">%归一化</span>
+<span class="n">G</span> <span class="o">=</span> <span class="nb">filter</span><span class="p">/</span><span class="nb">sum</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="nb">filter</span><span class="p">));</span>
+
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>另一种更简洁的代码：</p>
+
+<div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">function</span> <span class="n">G</span> <span class="o">=</span> <span class="n">GLPSpatialfilter</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="n">delta</span><span class="p">)</span>
+<span class="c1">%GLPSpatialfilter 高斯低通空间滤波器</span>
+<span class="c1">%   此处显示详细说明</span>
+
+<span class="n">k</span> <span class="o">=</span> <span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)/</span><span class="mi">2</span><span class="p">;</span>
+<span class="p">[</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">]</span><span class="o">=</span><span class="nb">meshgrid</span><span class="p">(</span><span class="o">-</span><span class="n">k</span><span class="p">:</span><span class="n">k</span><span class="p">,</span><span class="o">-</span><span class="n">k</span><span class="p">:</span><span class="n">k</span><span class="p">);</span>
+
+<span class="n">G</span> <span class="o">=</span> <span class="nb">exp</span><span class="p">(</span><span class="o">-</span><span class="p">(</span><span class="n">x</span><span class="o">.*</span><span class="n">x</span><span class="o">+</span><span class="n">y</span><span class="o">.*</span><span class="n">y</span><span class="p">)</span><span class="o">.</span><span class="p">/(</span><span class="mi">2</span><span class="o">*</span><span class="n">delta</span><span class="o">*</span><span class="n">delta</span><span class="p">));</span>
+<span class="n">G</span> <span class="o">=</span> <span class="n">G</span><span class="p">/</span><span class="nb">sum</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">G</span><span class="p">));</span>
+
+<span class="k">end</span>
+</code></pre></div></div>
+
+<h2 id="reference">reference</h2>
+
+<p>Gaussian Blur</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://en.wikipedia.org/wiki/Gaussian_blur
+</code></pre></div></div>
+
+<p>Gaussian Filter</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://blog.csdn.net/ckghostwj/article/details/12177273
+https://www.cnblogs.com/wangguchangqing/p/6407717.html
+https://www.cnblogs.com/pacino12134/p/11372555.html
+</code></pre></div></div>
+
+  <!-- 引入share模块 -->
+  
+  <div class="social-share-wrapper">
+    <div class="social-share"></div>
+  </div>
+
+
+<!-- share.js -->
+<script src="/assets/js/social-share.min.js"></script>
+<script>
+  socialShare('.social-share', {
+    sites: [
+      
+        'qq'
+        ,
+        
+      
+        'wechat'
+        ,
+        
+      
+        'weibo'
+        ,
+        
+      
+        'twitter'
+        ,
+        
+      
+        'facebook'
+        
+      
+    ],
+    wechatQrcodeTitle: "分享到微信朋友圈",
+    wechatQrcodeHelper: '期待在朋友圈见到这篇文章'
+  });
+</script>
+
+</div>
+
+<!-- 底部锚点 -->
+<a id="htmldown" name="htmldown"></a>
+<!-- 引入评论模块 -->
+
+
+
+    <section class="post-footer-item comment">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNDI2OS8xMDgwNg=="></div>
+    </section>
+
+    <!-- 来必力City版安装代码 -->
+    <script type="text/javascript">
+       (function(d, s) {
+           var j, e = d.getElementsByTagName(s)[0];
+
+           if (typeof LivereTower === 'function') { return; }
+
+           j = d.createElement(s);
+           j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+           j.async = true;
+
+           e.parentNode.insertBefore(j, e);
+       })(document, 'script');
+    </script>
+    <noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+    <!-- City版安装代码已完成 -->
+
+
+
+
+
+<!-- 引入goto模块 -->
+<div class="bounceInRight animated go">
+  <a title="顶部切换页面" class="gototop" href="#htmlup" target="_self">
+    <div class="box" style="font-family:'ffad_matroregular';">
+        Top
+    </div>
+  </a>
+  <a title="底部有livere评论哦" class="gotobottom" href="#htmldown" target="_self">
+    <div class="box" style="font-family:'ffad_matroregular';">
+        Foot
+    </div>
+  </a>
+</div>
+
+<!-- 引入页面底部模块 -->
+<footer id="bottom">
+  <br>
+  <span>wcxiao ©
+  
+  
+  2020
+  <br>
+  Powered by <a href="https://www.jekyll.com.cn/">Jekyll</a> | <a href="https://github.com/xukimseven/HardCandy-Jekyll">HardCandy-Jekyll</a></span>
+</footer>
+
+
+<!-- 引用wow.js的动画效果 -->
+<script src="/assets/js/wow.js"></script>
+<script>
+    var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        // offset: 600,
+        mobile: true,
+        live: true
+    });
+    wow.init();
+</script>
+<!-- 页面刷新回到顶部 -->
+<script>
+    window.onbeforeunload = function(){
+        //刷新后页面自动回到顶部
+        document.documentElement.scrollTop = 0;  //ie下
+        document.body.scrollTop = 0;  //非ie
+    }
+</script>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

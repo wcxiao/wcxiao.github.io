@@ -26,7 +26,7 @@
 <link href="/assets/profile.jpeg" rel="apple-touch-icon-precomposed" />
 <!-- Android Lolipop Theme Color -->
 <!-- <meta name="theme-color" content="#1464FB"> -->
-<title>Latex数学符号</title>
+<title>图像梯度</title>
 <!-- 百度统计 -->
 
 <script>
@@ -100,10 +100,10 @@ var _hmt = _hmt || [];
 <!-- 引入博文顶部样式 -->
 <!-- 版本一 垃圾 -->
 <!-- <div class="wow fadeIn top" data-wow-duration="3.5s" >
-    <span class="wow fadeInUp" data-wow-delay="0.2s">Latex数学符号</span>
+    <span class="wow fadeInUp" data-wow-delay="0.2s">图像梯度</span>
     <span class="wow fadeInUp" data-wow-delay="0.4s"></span>
     <span class="wow fadeInUp" data-wow-delay="0.4s"></span>
-    <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;wcxiao</span>
+    <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;xiaowc</span>
 </div> -->
 
 <!-- 版本二 可切换页面 -->
@@ -112,30 +112,30 @@ var _hmt = _hmt || [];
   <!-- 页面宽度大于800px -->
   <div class="left-area">
     
-      <a href="/2020/07/07/convolution.html" class="btn bounceInLeft animated" onmouseover="showLeft();this.style.color='rgb(255,210,32)';" onmouseout="goneLeft();this.style.color='rgba(0,0,0,.2)';"><</a>
-      <div id="left-tab" style="display:none;"><span class="left-san"></span><span class="left-main" style="color:rgb(255,210,32);"><sapn class="main">卷积(convolution)和相关(correlation)</sapn></span></div>
+      <a href="/2020/07/07/%E8%BE%B9%E7%BC%98%E8%BF%BD%E8%B8%AA(Moore-Neighbor).html" class="btn bounceInLeft animated" onmouseover="showLeft();this.style.color='rgb(255,210,32)';" onmouseout="goneLeft();this.style.color='rgba(0,0,0,.2)';"><</a>
+      <div id="left-tab" style="display:none;"><span class="left-san"></span><span class="left-main" style="color:rgb(255,210,32);"><sapn class="main">边缘追踪(Moore-Neighbor Tracing)</sapn></span></div>
     
   </div>
   <div class="post-titlearea">
-    <span class="wow fadeInUp" data-wow-delay="0.2s">Latex数学符号</span>
+    <span class="wow fadeInUp" data-wow-delay="0.2s">图像梯度</span>
     <!-- <span class="wow fadeInUp" data-wow-delay="0.4s"></span> -->
     <!-- <span class="wow fadeInUp" data-wow-delay="0.4s"></span> -->
-    <!-- <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;wcxiao</span> -->
+    <!-- <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;xiaowc</span> -->
   </div>
   <div class="right-area">
     
-      <a href="/2020/05/16/latex%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F.html" class="btn bounceInRight self-animated" onmouseover="showRight();this.style.color='rgb(255,210,32)';" onmouseout="goneRight();this.style.color='rgba(0,0,0,.2)';">></a>
-      <div id="right-tab" style="display:none;"><span class="right-san"></span><span class="right-main" style="color:rgb(255,210,32);"><sapn class="main">Latex数学公式</sapn></span></div>
+      <a href="/2020/07/07/convolution.html" class="btn bounceInRight self-animated" onmouseover="showRight();this.style.color='rgb(255,210,32)';" onmouseout="goneRight();this.style.color='rgba(0,0,0,.2)';">></a>
+      <div id="right-tab" style="display:none;"><span class="right-san"></span><span class="right-main" style="color:rgb(255,210,32);"><sapn class="main">卷积(convolution)和相关(correlation)</sapn></span></div>
     
   </div>
 
   <!-- 页面宽度小于800px -->
   <div class="post-changearea">
     
-      <a href="/2020/07/07/convolution.html" class="leftchange" style="border-right: 1px solid rgb(255,210,32);border-bottom: 2px solid rgb(255,210,32);"><span>上一篇<br><br>卷积(convolution)和相关(correlation)</span></a>
+      <a href="/2020/07/07/%E8%BE%B9%E7%BC%98%E8%BF%BD%E8%B8%AA(Moore-Neighbor).html" class="leftchange" style="border-right: 1px solid rgb(255,210,32);border-bottom: 2px solid rgb(255,210,32);"><span>上一篇<br><br>边缘追踪(Moore-Neighbor Tracing)</span></a>
     
     
-      <a href="/2020/05/16/latex%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F.html" class="rightchange" style="border-left: 1px solid rgb(255,210,32);border-bottom: 2px solid rgb(255,210,32);"><span>下一篇<br><br>Latex数学公式</span></a>
+      <a href="/2020/07/07/convolution.html" class="rightchange" style="border-left: 1px solid rgb(255,210,32);border-bottom: 2px solid rgb(255,210,32);"><span>下一篇<br><br>卷积(convolution)和相关(correlation)</span></a>
     
   </div>
 </div>
@@ -146,53 +146,140 @@ var _hmt = _hmt || [];
   
 
   <!-- 文章内容 -->
-  <p>摘自《Latex入门》 刘海洋编著 电子工业出版社 ISBN：978-7-121-20208-7</p>
+  <h2 id="梯度">梯度</h2>
 
-<h2 id="字母字体">字母字体</h2>
+<h3 id="定义">定义</h3>
 
-<p><img src="https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/charfont.png" alt="charfont" /></p>
+<script type="math/tex; mode=display">\nabla f\equiv grad(f)\equiv \left[ \begin{matrix}
+   g_x    \\
+   g_y    \\
+\end{matrix} \right]=\left[ \begin{matrix}
+   \frac{\partial f}{\partial x}    \\
+   \frac{\partial f}{\partial y}    \\
+\end{matrix} \right]</script>
 
-<p><img src="https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/charfont2.png" alt="charfont2" /></p>
+<h3 id="大小和方向">大小和方向</h3>
 
-<h2 id="希腊字母">希腊字母</h2>
+<script type="math/tex; mode=display">M(x,y)=mag(\nabla f)=\sqrt{g_x^2+g_y^2}</script>
 
-<p><img src="https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/greecechar.png" alt="greecechar" /></p>
+<script type="math/tex; mode=display">\alpha(x,y)=arctan \left( \frac{g_y}{g_x}\right)</script>
 
-<h2 id="数学重音符号">数学重音符号</h2>
+<h3 id="几何意义">几何意义</h3>
 
-<p><img src="https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/mathaccents.png" alt="mathaccents" /></p>
+<p>以黑色方框为中心的3*3领域，灰色设为0，白色设为1，梯度计算如图：</p>
 
-<h2 id="普通数学符号">普通数学符号</h2>
+<p><img src="https://picholder.oss-cn-shanghai.aliyuncs.com/dip/gradcalc.png" alt="gradient" /></p>
 
-<p><img src="https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/mathnormalsymbol.png" alt="mathnormalsymbol" /></p>
+<p>梯度向量与边缘方向垂直</p>
 
-<h2 id="运算符">运算符</h2>
+<p><img src="https://picholder.oss-cn-shanghai.aliyuncs.com/dip/gradvector.png" alt="gradvector" /></p>
 
-<p><img src="https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/mathop.png" alt="mathop" /></p>
+<h2 id="计算">计算</h2>
 
-<p><img src="https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/mathop2.png" alt="mathop2" /></p>
+<p>计算图像上每个像素的偏导数的数字近似：</p>
 
-<h2 id="二元运算符">二元运算符</h2>
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{aligned}
+g_x &=\frac{\partial f(x,y)}{\partial x}=f(x+1,y)-f(x,y)  \\
+g_y &=\frac{\partial f(x,y)}{\partial y}=f(x,y+1)-f(x,y)  \\
+\end{aligned} %]]></script>
 
-<p><img src="https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/mathmod.png" alt="mathmod" /></p>
+<h2 id="梯度算子">梯度算子</h2>
 
-<p><img src="https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/binaryop.png" alt="binaryop" /></p>
+<p>Robert算子</p>
 
-<p><img src="https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/binaryop2.png" alt="binaryop2" /></p>
+<p>Prewitt算子</p>
 
-<h2 id="数学其他符号">数学其他符号</h2>
+<h3 id="sobel算子">Sobel算子</h3>
 
-<h3 id="箭头">箭头</h3>
+<p><img src="https://picholder.oss-cn-shanghai.aliyuncs.com/dip/sobel.png" alt="sobel" /></p>
 
-<p><img src="https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/arrow.png" alt="arrow" /></p>
+<p>$g_x=\frac{\partial f}{\partial x}=(z_7+2z_8+z_9)-(z_1+2z_2+z_3)$</p>
 
-<h3 id="括号">括号</h3>
+<p>$g_y=\frac{\partial f}{\partial y}=(z_3+2z_6+z_9)-(z_1+2z_4+z_7)$</p>
 
-<p><img src="https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/bracket.png" alt="bracket" /></p>
+<p>使用阵列相乘求和计算gx：</p>
 
-<h3 id="省略号">省略号</h3>
+<table>
+  <thead>
+    <tr>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-1</td>
+      <td>-2</td>
+      <td>-1</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
 
-<p><img src="https://picholder.oss-cn-shanghai.aliyuncs.com/latex/formulas/mathellipsis.png" alt="mathellipsis" /></p>
+<p>使用阵列相乘求和计算gy：</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>-2</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>-1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="代码实现">代码实现</h2>
+
+<div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">function</span> <span class="p">[</span><span class="n">gx</span><span class="p">,</span> <span class="n">gy</span><span class="p">,</span> <span class="n">M</span><span class="p">,</span> <span class="n">a</span><span class="p">]</span> <span class="o">=</span> <span class="n">gradSobel</span><span class="p">(</span><span class="n">img</span><span class="p">)</span>
+<span class="c1">%gradSobel(img) 使用Sobel算子计算img的梯度</span>
+<span class="c1">%   此处显示详细说明</span>
+
+<span class="n">sobelx</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span> <span class="o">-</span><span class="mi">2</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span><span class="p">;</span> <span class="mi">1</span> <span class="mi">2</span> <span class="mi">1</span><span class="p">]</span>
+<span class="n">sobely</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span> <span class="mi">0</span> <span class="mi">1</span><span class="p">;</span> <span class="o">-</span><span class="mi">2</span> <span class="mi">0</span> <span class="mi">2</span><span class="p">;</span> <span class="o">-</span><span class="mi">1</span> <span class="mi">0</span> <span class="mi">1</span><span class="p">]</span>
+
+<span class="n">gx</span> <span class="o">=</span> <span class="n">mycorr2</span><span class="p">(</span><span class="n">img</span><span class="p">,</span><span class="n">sobelx</span><span class="p">,</span><span class="s1">'same'</span><span class="p">);</span>
+<span class="n">gy</span> <span class="o">=</span> <span class="n">mycorr2</span><span class="p">(</span><span class="n">img</span><span class="p">,</span><span class="n">sobely</span><span class="p">,</span><span class="s1">'same'</span><span class="p">);</span>
+
+<span class="n">M</span> <span class="o">=</span> <span class="nb">sqrt</span><span class="p">(</span><span class="n">gx</span><span class="o">.*</span><span class="n">gx</span><span class="o">+</span><span class="n">gy</span><span class="o">.*</span><span class="n">gy</span><span class="p">);</span>
+<span class="n">a</span> <span class="o">=</span> <span class="nb">atan2d</span><span class="p">(</span><span class="n">gy</span><span class="p">,</span><span class="n">gx</span><span class="p">);</span>
+
+<span class="k">end</span>
+</code></pre></div></div>
+
+<h2 id="reference">reference</h2>
+
+<p>《数字图像处理》第三版 Rafael C. Gonzalez编著
+   https://zhuanlan.zhihu.com/p/64350303
+   https://blog.csdn.net/baidu_38172402/article/details/88991375
+   https://www.jianshu.com/p/96b77afd323b</p>
 
   <!-- 引入share模块 -->
   
